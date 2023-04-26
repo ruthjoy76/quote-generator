@@ -45,26 +45,10 @@ body {
 .card-content .quote-text {
   display: flex;
   justify-content: center;
-}
-
-.quote-text i {
-  font-size: 1rem;
-}
-
-.quote-text i:first-child {
-  margin: .1em  .75em 0 0;
-}
-
-.quote-text i:last-child {
-  display: flex;
-  margin: 0 0 .1em .75em;
-  align-items: flex-end;
-}
-
-.quote-text .quote {
-  font-size: 1.25rem;
-  text-align: center;
+  font-size: 1.2rem;
+  text-align: left;
   word-break: break-all;
+  padding: 0.75em;
 }
 
 .card-content .author {
@@ -72,21 +56,10 @@ body {
   justify-content: center;
   font-size: 1.2rem;
   margin-top: 1.25em;
-  color: var(--color-on-black);
+  color: var(--color-primary);
   font-style: italic;
 }
 
-.divider {
-  width: 100%;
-  height: 5vh;
-  margin: 0.75em 0 1.8em 0;
-  padding-top: 1em;
-  background-image: url(/src/images/divider.svg);
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: center;
-  
-}
 
 .btn {
   position: absolute;
